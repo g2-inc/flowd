@@ -1,3 +1,3 @@
-SUBDIR+=	flowd
+SUBDIR+=	flowd flowd-reader
 
 .include <bsd.subdir.mk>
