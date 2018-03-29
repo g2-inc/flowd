@@ -20,6 +20,13 @@ CFLAGS+=	\
 LDFLAGS+=	\
 		-L${.CURDIR}/../../lib/libflowd/obj
 
+############################
+# PIE and RELRO + BIND_NOW #
+############################
+
+CFLAGS+=	-fPIC -fPIE -Wl,-z,relro -Wl,-z,now
+LDFLAGS+=	-pie
+
 ##########################
 # Control-Flow Integrity #
 ##########################
