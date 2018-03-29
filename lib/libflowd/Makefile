@@ -5,9 +5,7 @@ SRCS=		\
 		atomicio.c \
 		crc32.c \
 		store-v2.c \
-		store.c \
-		strlcat.c \
-		strlcpy.c
+		store.c
 MAN=
 
 CFLAGS+=	\
