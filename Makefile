@@ -1,3 +1,4 @@
+SUBDIR+=	etc
 SUBDIR+=	lib
 SUBDIR+=	usr.bin
 
